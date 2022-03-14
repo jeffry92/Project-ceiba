@@ -60,11 +60,11 @@ class MainActivity : AppCompatActivity(), OnClickListenerView {
     private fun userFilter() {
         binding.editTextSearch.addTextChangedListener(object : TextWatcher{
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-                TODO("Not yet implemented")
+               //"Not yet implemented"
             }
 
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                TODO("Not yet implemented")
+                //"Not yet implemented"
             }
 
             override fun afterTextChanged(s: Editable?) {
